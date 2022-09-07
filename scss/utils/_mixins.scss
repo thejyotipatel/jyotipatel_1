@@ -1,0 +1,6 @@
+// flex styles
+@mixin flex-jSpace_between-aCenter($j: space-between, $a: center) {
+  display: flex;
+  justify-content: $j;
+  align-items: $a;
+}

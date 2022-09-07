@@ -1,0 +1,166 @@
+/* utility classes */
+
+/* text color */
+
+// text primary
+.text-primary-100 {
+  color: $clr-primary-100;
+}
+.text-primary-200 {
+  color: $clr-primary-200;
+}
+.text-primary-300 {
+  color: $clr-primary-300;
+}
+
+// text accent
+.text-accent-100 {
+  color: $clr-accent-100;
+}
+.text-accent-200 {
+  color: $clr-accent-200;
+}
+.text-accent-300 {
+  color: $clr-accent-300;
+}
+.text-accent-400 {
+  color: $clr-accent-400;
+}
+.text-accent-500 {
+  color: $clr-accent-500;
+}
+
+// text neutral
+.text-neutral-100 {
+  color: $clr-neutral-100;
+}
+.text-neutral-200 {
+  color: $clr-neutral-200;
+}
+
+/* background color */
+
+// background primary
+.bg-primary-100 {
+  background-color: $clr-primary-100;
+}
+.bg-primary-200 {
+  background-color: $clr-primary-200;
+}
+.bg-primary-300 {
+  background-color: $clr-primary-300;
+}
+
+// background accent
+.bg-accent-100 {
+  background-color: $clr-accent-100;
+}
+.bg-accent-200 {
+  background-color: $clr-accent-200;
+}
+.bg-accent-300 {
+  background-color: $clr-accent-300;
+}
+.bg-accent-400 {
+  background-color: $clr-accent-400;
+}
+.bg-accent-500 {
+  background-color: $clr-accent-500;
+}
+
+// background neutral
+.bg-neutral-100 {
+  background-color: $clr-neutral-100;
+}
+.bg-neutral-200 {
+  background-color: $clr-neutral-200;
+}
+
+/* font-weight */
+.fw-400 {
+  font-weight: $fw-400;
+}
+.fw-500 {
+  font-weight: $fw-500;
+}
+.fw-700 {
+  font-weight: $fw-700;
+}
+.fw-800 {
+  font-weight: $fw-800;
+}
+.fw-900 {
+  font-weight: $fw-900;
+}
+
+/* font-size */
+.fs-100 {
+  font-size: $fs-100;
+}
+.fs-200 {
+  font-size: $fs-200;
+}
+.fs-300 {
+  font-size: $fs-300;
+}
+.fs-400 {
+  font-size: $fs-400;
+}
+.fs-500 {
+  font-size: $fs-500;
+}
+.fs-600 {
+  font-size: $fs-600;
+}
+.fs-700 {
+  font-size: $fs-700;
+}
+.fs-800 {
+  font-size: $fs-800;
+}
+
+.ts-400 {
+  transition: $ts-400;
+}
+
+.btn-radius {
+  border-radius: $btn-radius;
+}
+
+// container
+.container {
+  width: calc(min(92%, 1200px));
+  margin-inline: auto;
+  // border: $d-border;
+}
+// sign in button
+
+.link-button {
+  background-color: $clr-primary-100;
+  padding: $size-100 $size-400;
+  box-shadow: $bxs-300;
+  font-size: $fs-200-1;
+  font-weight: $fw-500;
+  border-radius: $size-200;
+  color: $clr-accent-100;
+  transition: $ts-400;
+  &:hover {
+    background-color: $clr-primary-200;
+  }
+}
+
+.icon {
+  fill: $clr-neutral-200;
+  // width: 5em;
+  aspect-ratio: 1;
+}
+
+.logo {
+  // margin: $size-100 0;
+  a {
+    font-style: italic;
+    color: $clr-neutral-100;
+    font-size: $fs-300;
+    font-weight: $fw-700;
+  }
+}

@@ -1,0 +1,37 @@
+main {
+  .home {
+    display: grid;
+    // flex-direction: column-reverse;
+    .page-intro {
+      h1 {
+        font-size: $fs-600;
+        color: $clr-neutral-100;
+        line-height: 1.2;
+        // max-width: calc(min(100%, 700px));
+      }
+      p {
+        line-height: 1.5;
+        font-size: $fs-200-1;
+        color: $clr-neutral-200;
+        font-weight: $fw-400;
+        // max-width: calc(min(100%, 500px));
+      }
+    }
+    .hero-images {
+      width: calc(min(90%, 450px));
+    }
+  }
+}
+
+@media (min-width: 50em) {
+  main {
+    .home {
+      display: grid;
+      grid-area: 'one' 'two';
+      // grid-template-columns: repeat(2, 1fr);
+      gap: 1em;
+      // justify-items: end;
+      // align-items: center;
+    }
+  }
+}

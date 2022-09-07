@@ -1,0 +1,60 @@
+$clr-accent-100: #ffffff;
+$clr-accent-200: #fbf8f3;
+$clr-accent-300: #fff7f0; //
+$clr-accent-400: #ffb841;
+$clr-accent-500: #a09c9c21;
+
+$clr-primary-100: #ea7564; //
+$clr-primary-200: #00acee;
+$clr-primary-300: #62c4b7; //
+
+$clr-neutral-100: #030303;
+$clr-neutral-200: #555454;
+$clr-neutral-300: #050304; //
+$clr-neutral-400: #887f78; //
+$clr-neutral-500: #c5c5c5;
+
+$ff-primery: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+$ff-body: $ff-primery;
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+$fs-100: 12px;
+$fs-200: 16px;
+$fs-200-1: 18px;
+$fs-300: 1em;
+$fs-400: 1.5em;
+$fs-500: 1.8em;
+$fs-600: 2em;
+$fs-700: 2.5em;
+$fs-800: 3em;
+
+$fs-body: calc(10px + 2vmin);
+
+$ts-400: all 0.2s linear;
+$btn-radius: 0.2rem;
+
+$size-100: 0.5em;
+$size-200: 1em;
+$size-300: 1.5rem;
+$size-400: 2rem;
+$size-500: 2.5rem;
+$size-600: 3rem;
+$size-700: 3.5rem;
+$size-800: 4rem;
+$size-900: 5rem;
+
+$flow-spaces: 1rem;
+
+$bxs-100: 0 8px 16px #00000029;
+$bxs-200: 0 4px 12px #00000014, 0 0 1px #0100001a;
+$bxs-300: 0 1px 1px #0000000a;
+$bxs-400: 0 2px 1px #0000000a;
+
+$d-border: 2px solid hotpink;
