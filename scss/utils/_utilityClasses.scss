@@ -128,11 +128,11 @@
 }
 
 // container
-.container {
-  width: calc(min(92%, 1000px));
-  margin-inline: auto;
-  // border: $d-border;
-}
+// .container {
+//   width: calc(min(92%, 1000px));
+//   margin-inline: auto;
+//   // border: $d-border;
+// }
 // sign in button
 
 .link-button {
@@ -170,8 +170,6 @@
   }
 }
 
-// span grid
-
-.grid-span-col-2 {
-  grid-column: span 2;
+.space-margin-top {
+  margin-top: $size-900;
 }
