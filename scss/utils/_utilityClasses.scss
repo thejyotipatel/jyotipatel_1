@@ -129,7 +129,7 @@
 
 // container
 .container {
-  width: calc(min(92%, 1200px));
+  width: calc(min(92%, 1000px));
   margin-inline: auto;
   // border: $d-border;
 }
@@ -137,21 +137,26 @@
 
 .link-button {
   background-color: $clr-primary-100;
-  padding: $size-100 $size-400;
+  padding: 0.5em $size-200;
   box-shadow: $bxs-300;
   font-size: $fs-200-1;
-  font-weight: $fw-500;
-  border-radius: $size-200;
+  font-weight: $fw-400;
+  border-radius: $btn-radius;
   color: $clr-accent-100;
   transition: $ts-400;
   &:hover {
     background-color: $clr-primary-200;
   }
 }
+@media (min-width: 30em) {
+  .link-button {
+    padding: 0.5em $size-400;
+  }
+}
 
 .icon {
   fill: $clr-neutral-200;
-  // width: 5em;
+  width: 100%;
   aspect-ratio: 1;
 }
 
@@ -163,4 +168,10 @@
     font-size: $fs-300;
     font-weight: $fw-700;
   }
+}
+
+// span grid
+
+.grid-span-col-2 {
+  grid-column: span 2;
 }

@@ -2,7 +2,8 @@ body {
   font-family: $ff-body;
   font-size: $fs-body;
   color: $clr-neutral-200;
-
+  background-color: $clr-accent-300;
+  color: $clr-neutral-200;
   color-scheme: light dark;
 }
 html {

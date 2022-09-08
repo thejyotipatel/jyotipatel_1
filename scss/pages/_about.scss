@@ -1,0 +1,33 @@
+.about {
+  display: grid;
+  margin-top: $size-900;
+  gap: $size-300;
+  align-items: center;
+  justify-items: center;
+  &-contant-profile-img {
+    img {
+      border-radius: 100%;
+    }
+  }
+  &-contant-profile-about {
+    text-align: center;
+    h1 {
+      color: $clr-neutral-100;
+      font-size: $fs-400;
+      line-height: 1.2;
+      word-spacing: 0.5;
+    }
+    p {
+      font-size: $fs-200-1;
+      margin: $size-200 0;
+    }
+  }
+}
+@media (min-width: 45em) {
+  .about {
+    grid-template-columns: repeat(2, 1fr);
+    &-contant-profile-about {
+      text-align: justify;
+    }
+  }
+}
