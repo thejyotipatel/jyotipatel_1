@@ -7,17 +7,9 @@ a {
 .container {
   $max-width: 1210px;
   $padding: 1rem;
-  width: calc(min(1210px, 95%));
+  width: calc(min(1000px, 95%));
   margin-inline: auto;
 }
-
-/* media querry */
-// @media (min-width: 50em) {
-// }
-
-/* Hover on desktop and revmove on mobile */
-// @media (hover: hover) {
-// }
 
 button {
   border-radius: $btn-radius;

@@ -18,20 +18,19 @@
       li {
         text-align: center;
         font-size: $fs-200;
-        line-height: 1.2;
+        line-height: 1.5;
         margin: $size-200 0;
       }
     }
   }
   &-contant-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: $size-200;
-    flex-wrap: wrap;
   }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 30em) {
   .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -40,15 +39,18 @@
     &-contant-1 {
       margin: $size-200 0;
       h1 {
-        text-align: justify;
+        text-align: left;
       }
       ul {
         li {
-          line-height: 0.5;
-
-          text-align: justify;
+          line-height: 1.5;
+          text-align: left;
         }
       }
+    }
+    &-contant-2 {
+      display: flex;
+      gap: $size-200;
     }
   }
 }

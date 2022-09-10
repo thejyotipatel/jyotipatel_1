@@ -13,10 +13,11 @@ main {
     p {
       text-align: center;
       font-size: $fs-200-1;
+      width: calc(min(100%, 800px));
     }
     .language-icons {
-      // display: flex;
-      // display: grid;
+      width: calc(min(100%, 900px));
+
       margin: $size-200 0;
       grid-template-columns: repeat(1, 1fr);
       gap: $size-200;
@@ -41,17 +42,12 @@ main {
 @media (min-width: 30em) {
   .home {
     .language-icons {
-      // display: flex;
-      // display: grid;
       grid-template-columns: repeat(3, 1fr) !important;
-      // gap: $size-200;
       .icon:first-child {
         width: 100% !important;
-        // margin-inline: auto;
       }
       .icon:last-child {
         width: 100% !important;
-        // margin-inline: auto;
       }
     }
   }

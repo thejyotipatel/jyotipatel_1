@@ -1,10 +1,46 @@
 .work {
   h1 {
     text-align: center;
+    color: $clr-neutral-100;
+  }
+  .git-desc {
+    max-width: 50ch;
+    text-align: center;
+    margin-inline: auto;
+    font-size: $fs-200-1;
+    a {
+      color: $clr-primary-100;
+    }
   }
   .work-cards {
+    height: calc(min(100%, 400px));
     display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    gap: $size-200;
+    margin: $size-400 0;
     .card {
+      min-width: 80%;
+      box-shadow: $bxs-300;
+      transition: $ts-400;
+      :hover {
+        box-shadow: $bxs-200;
+      }
+    }
+  }
+  .work-cards::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+@media (min-width: 30em) {
+  .work {
+    .work-cards {
+      .card {
+        min-width: 400px;
+        min-height: 250px;
+        box-shadow: $bxs-400;
+      }
     }
   }
 }
