@@ -16,38 +16,18 @@
     height: calc(min(100%, 400px));
     display: flex;
     overflow-x: auto;
-    // overflow-y: auto;
     gap: $size-200;
     margin: $size-400 0;
     scroll-snap-type: x mandatory;
-    // .card > * {
-    //   grid-column: 1 / -1;
-    //   grid-row: 1 / -1;
-    // }
+
     .card {
       scroll-snap-align: start;
-      // display: grid;
-      // place-content: center;
-      // align-items: center;
-      // isolation: isolate;
       min-width: 80%;
       box-shadow: $bxs-300;
-      // cursor: pointer;
       transition: $ts-400;
       :where(:hover, :focus-within) {
         box-shadow: $bxs-200;
       }
-      // h1 {
-      //   font-size: $fs-200-1;
-      //   color: $clr-primary-200;
-      // }
-      // * {
-      //   grid-column: 1 / -1;
-      //   grid-row: 1 / -1;
-      // }
-      // a {
-      //   z-index: -1;
-      // }
     }
   }
   .work-cards::-webkit-scrollbar {
