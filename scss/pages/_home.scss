@@ -9,7 +9,32 @@ main {
       color: $clr-neutral-100;
       font-size: $fs-700;
       line-height: 1.5;
+      border-right: 5px solid $clr-neutral-100;
+      overflow: hidden;
+      white-space: nowrap;
     }
+    .name-animation {
+      animation: typewriter 4s steps(20) 1s infinite both,
+        blinkCursor 500ms steps(20) infinite;
+    }
+    @keyframes typewriter {
+      from {
+        width: 0;
+      }
+      to {
+        width: 11em;
+      }
+    }
+
+    @keyframes blinkCursor {
+      from {
+        border-right-color: $clr-neutral-100;
+      }
+      to {
+        border-right-color: transparent;
+      }
+    }
+
     p {
       text-align: center;
       font-size: $fs-200-1;
