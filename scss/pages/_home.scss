@@ -9,36 +9,18 @@ main {
       color: $clr-neutral-100;
       font-size: $fs-700;
       line-height: 1.5;
-      border-right: 5px solid $clr-neutral-100;
-      overflow: hidden;
-      white-space: nowrap;
-    }
-    .name-animation {
-      animation: typewriter 4s steps(20) 1s infinite both,
-        blinkCursor 500ms steps(20) infinite;
-    }
-    @keyframes typewriter {
-      from {
-        width: 0;
-      }
-      to {
-        width: 11em;
-      }
-    }
-
-    @keyframes blinkCursor {
-      from {
-        border-right-color: $clr-neutral-100;
-      }
-      to {
-        border-right-color: transparent;
-      }
+      // border-right: 5px solid $clr-neutral-100;
+      // overflow: hidden;
+      // white-space: nowrap;
+      // font-size: clamp(16px, 3vw, px);
     }
 
     p {
       text-align: center;
-      font-size: $fs-200-1;
-      width: calc(min(100%, 800px));
+      // font-size: $fs-200-1;
+      font-size: clamp(16px, 3vw, 20px);
+
+      // width: calc(min(100%, 800px));
     }
     .language-icons {
       width: calc(min(100%, 900px));

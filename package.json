@@ -12,6 +12,7 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
-    "material-icons": "^1.11.11"
+    "material-icons": "^1.11.11",
+    "sass": "^1.69.0"
   }
 }
