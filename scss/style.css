@@ -283,16 +283,24 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .contact-btn {
-  background-color: #050304;
-  display: none;
+header .contact-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+header .contact-btns .contact-btn {
+  padding: 0;
+  font-size: 1.8em;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: transparent;
+}
+header .contact-btns .contact-btn:hover {
+  transform: scale(1.2);
 }
 
-@media (min-width: 16.5em) {
-  header .contact-btn {
-    display: block;
-  }
-}
 main .home {
   display: flex;
   flex-direction: column;
@@ -410,7 +418,7 @@ main .home .language-icons span {
 @media (min-width: 30em) {
   .work .work-cards .card {
     min-width: 400px;
-    min-height: 250px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0392156863);
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.0392156863);
   }
 }

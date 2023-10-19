@@ -2,16 +2,16 @@ footer {
   padding: $size-400 0;
   @include flex-jSpace_between-aCenter;
   gap: $size-200;
-  .contact-btn {
-    display: none;
-  }
+  // .contact-btn {
+  //   display: none;
+  // }
 }
 
 @media (min-width: 18em) {
   footer {
-    .contact-btn {
-      background-color: $clr-neutral-300;
-      display: block;
-    }
+    // .contact-btn {
+    //   background-color: $clr-neutral-300;
+    //   display: block;
+    // }
   }
 }

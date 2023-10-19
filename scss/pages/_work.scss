@@ -40,7 +40,8 @@
     .work-cards {
       .card {
         min-width: 400px;
-        min-height: 250px;
+        // min-height: 250px;
+        box-shadow: $bxs-300;
         box-shadow: $bxs-400;
       }
     }
